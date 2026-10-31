@@ -14,31 +14,39 @@
         "default": true,
         "groups": [
           {
-            "group": "Start",
+            "group": "Get started",
             "pages": [
               "index",
+              "getting-started/index",
               "start/what-is-istudix",
               "getting-started/create-account",
               "getting-started/sign-in",
-              "quickstart"
+              "quickstart",
+              "getting-started/dashboard"
             ]
           },
           {
             "group": "Features",
             "pages": [
-              "getting-started/dashboard",
-              "using-istudix/upload-materials",
-              "using-istudix/notebooks",
-              "using-istudix/flashcards",
-              "using-istudix/quizzes-and-exams",
-              "using-istudix/calendar",
-              "using-istudix/progress",
-              "using-istudix/pomodoro"
+              "using-istudix/index",
+              {
+                "group": "Set up your notebook",
+                "pages": ["using-istudix/notebooks", "using-istudix/upload-materials"]
+              },
+              {
+                "group": "Practice and review",
+                "pages": ["using-istudix/flashcards", "using-istudix/quizzes-and-exams", "using-istudix/progress"]
+              },
+              {
+                "group": "Plan and focus",
+                "pages": ["using-istudix/calendar", "using-istudix/pomodoro"]
+              }
             ]
           },
           {
             "group": "Account and subscription",
             "pages": [
+              "account/index",
               "account/settings",
               "account/plans-and-billing"
             ]
@@ -46,6 +54,7 @@
           {
             "group": "Help",
             "pages": [
+              "support/index",
               "support/troubleshooting",
               "support/faq",
               "support/contact"
@@ -60,28 +69,36 @@
             "group": "Começar",
             "pages": [
               "pt/index",
+              "pt/getting-started/index",
               "pt/start/what-is-istudix",
               "pt/getting-started/create-account",
               "pt/getting-started/sign-in",
-              "pt/quickstart"
+              "pt/quickstart",
+              "pt/getting-started/dashboard"
             ]
           },
           {
             "group": "Funcionalidades",
             "pages": [
-              "pt/getting-started/dashboard",
-              "pt/using-istudix/upload-materials",
-              "pt/using-istudix/notebooks",
-              "pt/using-istudix/flashcards",
-              "pt/using-istudix/quizzes-and-exams",
-              "pt/using-istudix/calendar",
-              "pt/using-istudix/progress",
-              "pt/using-istudix/pomodoro"
+              "pt/using-istudix/index",
+              {
+                "group": "Preparar o caderno",
+                "pages": ["pt/using-istudix/notebooks", "pt/using-istudix/upload-materials"]
+              },
+              {
+                "group": "Praticar e rever",
+                "pages": ["pt/using-istudix/flashcards", "pt/using-istudix/quizzes-and-exams", "pt/using-istudix/progress"]
+              },
+              {
+                "group": "Planear e concentrar-se",
+                "pages": ["pt/using-istudix/calendar", "pt/using-istudix/pomodoro"]
+              }
             ]
           },
           {
             "group": "Conta e subscrição",
             "pages": [
+              "pt/account/index",
               "pt/account/settings",
               "pt/account/plans-and-billing"
             ]
@@ -89,6 +106,7 @@
           {
             "group": "Ajuda",
             "pages": [
+              "pt/support/index",
               "pt/support/troubleshooting",
               "pt/support/faq",
               "pt/support/contact"
@@ -138,7 +156,7 @@
   "logo": {
     "light": "https://www.istudix.app/logo.png",
     "dark": "https://www.istudix.app/logo.png",
-    "href": "https://www.istudix.app/"
+    "href": "/"
   },
   "favicon": "/favicon.png"
 }
