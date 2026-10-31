@@ -49,12 +49,7 @@
               "support/troubleshooting",
               "support/faq",
               "support/contact"
-            ],
-            "hidden": true
-          },
-          {
-            "group": "Images",
-            "pages": []
+            ]
           }
         ]
       },
@@ -97,8 +92,7 @@
               "pt/support/troubleshooting",
               "pt/support/faq",
               "pt/support/contact"
-            ],
-            "hidden": true
+            ]
           }
         ]
       }

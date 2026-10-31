@@ -3,7 +3,7 @@ title: "Flashcards"
 description: "How to generate flashcards from your study materials in iStudix, rate your confidence, use keyboard shortcuts, and bookmark cards for later review."
 ---
 
-iStudix turns your uploaded study materials into flashcards automatically. As you study, rate your confidence on each card: lower confidence cards come back sooner, so you spend more time on what you don't know yet.
+iStudix generates flashcards from the materials you choose. As you study, rate your confidence on each card to help prioritize review within your study session.
 
 <Frame>
   <img
@@ -18,8 +18,14 @@ iStudix turns your uploaded study materials into flashcards automatically. As yo
   <Step title="Open your material">
     Open a [notebook](/using-istudix/notebooks) that contains the material you want to study. If you haven't added it yet, [upload it](/using-istudix/upload-materials) first.
   </Step>
-  <Step title="Generate flashcards">
-    Choose **Flashcards** and let iStudix generate cards from your content.
+  <Step title="Configure your deck">
+    Open **Flashcards** and choose the new-deck action. Optionally name the deck. Choose 10, 20, or 30 cards, or a custom count from 5 to 100.
+  </Step>
+  <Step title="Choose materials and topics">
+    Select at least one available material, or use **Select all**. Optionally select topics to focus the deck; leave topics unselected for general coverage of the selected materials.
+  </Step>
+  <Step title="Generate the deck">
+    Check the summary and credit estimate, then choose **Generate deck**. Return to the flashcards list and wait for processing to finish before opening the deck.
   </Step>
 </Steps>
 
@@ -33,12 +39,28 @@ iStudix turns your uploaded study materials into flashcards automatically. As yo
     Click **Flip** (or press `Space`) to see the answer.
   </Step>
   <Step title="Rate your confidence">
-    Choose **Low**, **Medium**, or **High**. Cards you rate lower come back sooner.
+    Choose **Low**, **Medium**, or **High**. This records your confidence and automatically moves to the next card, or ends the session when there is nothing else to review.
   </Step>
   <Step title="Move to the next card">
-    Click **Next** to continue, or **Previous** to go back.
+    Use **Next** to continue without choosing confidence, or **Previous** to go back.
   </Step>
 </Steps>
+
+Review priority combines confidence and short intervals measured in minutes, not a fixed schedule of reviews across future days. Low-confidence cards receive higher priority. You can still choose to study regularly at your own pace.
+
+## Bookmarks and deck actions
+
+Press `B` to mark or unmark the current card. Bookmarks are temporary study-session markers, not a saved collection; they reset when you reopen the deck or reset the session.
+
+Open the three-dot menu while studying:
+
+- **Change order** shuffles the cards and returns to the first card without clearing your ratings.
+- **Reset session** restores the original deck order and starts again.
+- **Delete deck** opens the deletion confirmation. Confirm only if you want to remove the deck.
+
+<Warning>
+  **Reset session** immediately clears local known/review ratings, confidence choices, review timing, and bookmarks. It does not delete the deck or erase previously saved study history.
+</Warning>
 
 ## Keyboard shortcuts
 

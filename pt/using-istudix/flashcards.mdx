@@ -3,7 +3,7 @@ title: "Cartões de memória"
 description: "Saiba como gerar cartões de memória a partir dos seus materiais de estudo no iStudix, avaliar a sua confiança, utilizar atalhos de teclado e guardar cartões para revisão posterior."
 ---
 
-O iStudix transforma automaticamente os materiais de estudo que carregou em cartões de memória. À medida que estuda, avalie a sua confiança em cada cartão: os cartões com menos confiança reaparecem mais cedo, para que passe mais tempo no que ainda não sabe.
+O iStudix gera cartões de memória a partir dos materiais que escolher. À medida que estuda, avalie a sua confiança em cada cartão para ajudar a dar prioridade à revisão durante a sessão.
 
 <Frame>
   <img
@@ -18,8 +18,14 @@ O iStudix transforma automaticamente os materiais de estudo que carregou em cart
   <Step title="Abrir o material">
     Abra um [caderno](/pt/using-istudix/notebooks) que contenha o material que deseja estudar. Se ainda não o adicionou, [carregue-o](/pt/using-istudix/upload-materials) primeiro.
   </Step>
-  <Step title="Gerar cartões de memória">
-    Selecione **Flashcards** e deixe o iStudix gerar cartões a partir dos seus conteúdos.
+  <Step title="Configurar o conjunto">
+    Abra **Flashcards** e escolha a ação para criar um conjunto. Opcionalmente, dê-lhe um nome. Escolha 10, 20 ou 30 cartões, ou uma quantidade personalizada entre 5 e 100.
+  </Step>
+  <Step title="Escolher materiais e temas">
+    Selecione pelo menos um material disponível ou utilize **Select all**. Opcionalmente, selecione temas para focar o conjunto; deixe-os por selecionar para uma cobertura geral dos materiais escolhidos.
+  </Step>
+  <Step title="Gerar o conjunto">
+    Verifique o resumo e a estimativa de créditos e escolha **Generate deck**. Volte à lista de cartões e aguarde o fim do processamento antes de abrir o conjunto.
   </Step>
 </Steps>
 
@@ -33,12 +39,28 @@ O iStudix transforma automaticamente os materiais de estudo que carregou em cart
     Clique em **Flip** (ou prima `Space`) para ver a resposta.
   </Step>
   <Step title="Avaliar a sua confiança">
-    Escolha **Low**, **Medium** ou **High**. Os cartões que avaliar com menos confiança reaparecem mais cedo.
+    Escolha **Low**, **Medium** ou **High**. Isto regista a sua confiança e avança automaticamente para o cartão seguinte, ou termina a sessão quando não há mais nada para rever.
   </Step>
   <Step title="Avançar para o cartão seguinte">
-    Clique em **Next** para continuar ou **Previous** para voltar atrás.
+    Utilize **Next** para continuar sem escolher um nível de confiança ou **Previous** para voltar atrás.
   </Step>
 </Steps>
+
+A prioridade de revisão combina a confiança com intervalos curtos medidos em minutos, não com um calendário fixo de revisões em dias futuros. Os cartões com baixa confiança têm maior prioridade. Pode continuar a estudar regularmente ao seu ritmo.
+
+## Marcadores e ações do conjunto
+
+Prima `B` para marcar ou desmarcar o cartão atual. Os marcadores são temporários durante o estudo, não uma coleção guardada; são limpos ao reabrir o conjunto ou reiniciar a sessão.
+
+Abra o menu de três pontos durante o estudo:
+
+- **Change order** baralha os cartões e volta ao primeiro, sem limpar as suas avaliações.
+- **Reset session** repõe a ordem original do conjunto e recomeça a sessão.
+- **Delete deck** abre a confirmação de eliminação. Confirme apenas se pretender remover o conjunto.
+
+<Warning>
+  **Reset session** limpa imediatamente as avaliações locais de conhecido/rever, os níveis de confiança, os tempos de revisão e os marcadores. Não elimina o conjunto nem apaga o histórico de estudo anteriormente guardado.
+</Warning>
 
 ## Atalhos de teclado
 

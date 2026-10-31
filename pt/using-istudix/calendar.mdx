@@ -14,11 +14,12 @@ O **Calendar** do iStudix mostra todos os exames, certificações e prazos de es
 
 ## O que vê no Calendário
 
-- **Calendar grid**: o mês atual, com o dia de hoje destacado. Utilize **Today**, os botões de seta e o seletor do mês para navegar entre datas.
-- **Event types**: a legenda na parte superior da grelha mostra dois tipos de eventos:
+- **Calendar grid**: o mês atual, com o dia de hoje destacado. Utilize **Today** e os botões de seta para navegar entre datas. O nome do mês é uma etiqueta, não um seletor.
+- **Filtros de origem**: escolha **All**, **Manual** ou **Notebook**. A escolha filtra o calendário, os próximos eventos, o histórico e o resumo.
+- **Event types**: o calendário mostra dois tipos de eventos:
   - **Saved events**: eventos que adiciona manualmente com **New event**.
   - **Notebook events**: datas de exames adicionadas automaticamente a partir dos seus cadernos.
-- **Upcoming events**: uma lista dos seus próximos eventos e prazos dos cadernos, com a disciplina, a data e uma etiqueta a indicar a origem do evento.
+- **Upcoming events**: até seis eventos com data de hoje ou posterior, excluindo os concluídos, com a disciplina, a data e uma etiqueta de origem.
 - **Month summary**: quantos eventos tem este mês e quantos provêm de cadernos.
 
 ## Adicionar um exame ao calendário
@@ -43,6 +44,28 @@ Os exames são adicionados automaticamente quando criar um caderno. Introduza a 
 
 Também pode adicionar outros eventos, como uma sessão de estudo ou um lembrete, com **\+ New event** no canto superior direito do calendário. Estes aparecem como **Saved events**.
 
+## Adicionar, editar ou eliminar um evento manual
+
+1. Selecione **New event**.
+2. Introduza um título, a disciplina e a data. Opcionalmente, adicione notas e a antecedência do lembrete.
+3. Guarde o evento.
+
+Selecione um evento em **Month**, **Week**, **Agenda**, **Upcoming events** ou no histórico de eventos passados para abrir a mesma janela de detalhes. Esta mostra a disciplina, a data, a origem, o estado e as notas, quando existem.
+
+Num evento manual, escolha **Edit**, altere os campos e guarde. Escolha **Delete** e confirme para o eliminar. Num evento de caderno, escolha **Open notebook** para gerir a data nas definições desse caderno.
+
+## Rever eventos passados
+
+O histórico mostra primeiro os seis eventos passados mais recentes. Expanda-o para ver todos os eventos passados ou volte a recolhê-lo.
+
+Pode marcar um evento manual passado como concluído no histórico ou na janela de detalhes. Utilize **Reopen** para desfazer a conclusão. Os eventos de caderno não têm esta ação. Os eventos manuais concluídos continuam no calendário e no histórico, mas não aparecem em **Upcoming events**.
+
+## Definir lembretes
+
+No formulário do evento, defina quantos dias antes da data pretende receber um lembrete. Deixe o campo vazio se não pretender um. Escolha uma antecedência que caiba antes da data do evento; o formulário avisa se já for demasiado tarde.
+
+Os lembretes utilizam a preferência existente de lembretes de exames em **Account Settings** → **Notifications**. São verificados diariamente e enviados na aplicação e, quando ativadas e disponíveis, por notificações push. Guardar um evento não envia um e-mail de lembrete imediato.
+
 ## Ver os seus exames futuros
 
 Consulte o painel **Upcoming events** à direita. Cada cartão mostra:
@@ -59,7 +82,9 @@ Utilize os botões no canto superior direito do calendário:
 | --- | --- |
 | **Month** | Ver todos os exames e prazos do mês de relance |
 | **Week** | Planear o tempo de estudo para os próximos dias |
-| **Agenda** | Ver uma lista simples de eventos futuros por ordem de data |
+| **Agenda** | Ver eventos, incluindo os passados, por ordem de data |
+
+No telemóvel, o calendário abre inicialmente em **Agenda**. Pode mudar para **Month** ou **Week** a qualquer momento.
 
 ## Perguntas frequentes
 
@@ -76,6 +101,14 @@ Utilize os botões no canto superior direito do calendário:
     Clique em **Today** no canto superior esquerdo do calendário.
   </Accordion>
 </AccordionGroup>
+
+## Controlos do calendário
+
+<Frame>
+  <img src="/images/calendar-workflow.png" alt="Barra do calendário com criação de evento, data atual, navegação, vistas de mês, semana e agenda e filtros de origem" />
+</Frame>
+
+A imagem mostra a interface em inglês. Escolha **Month**, **Week** ou **Agenda** para mudar de vista. Use **All**, **Manual** ou **Notebook** para filtrar os eventos, ou selecione **New event** para adicionar uma data.
 
 ## Artigos relacionados
 

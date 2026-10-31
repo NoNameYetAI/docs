@@ -14,11 +14,12 @@ The iStudix **Calendar** shows every upcoming exam, certification, and study dea
 
 ## What you see on the Calendar
 
-- **Calendar grid**: the current month, with today highlighted. Use **Today**, the arrow buttons, and the month selector to move between dates.
-- **Event types**: the legend at the top of the grid shows two kinds of events:
+- **Calendar grid**: the current month, with today highlighted. Use **Today** and the arrow buttons to move between dates. The month name is a label, not a selector.
+- **Source filters**: choose **All**, **Manual**, or **Notebook**. Your choice filters the calendar, upcoming events, history, and summary.
+- **Event types**: the calendar shows two kinds of events:
   - **Saved events**: events you add yourself with **New event**.
   - **Notebook events**: exam dates added automatically from your notebooks.
-- **Upcoming events**: a list of your next events and notebook deadlines, with the subject, date, and a tag showing where the event came from.
+- **Upcoming events**: up to six events dated today or later, excluding completed events, with the subject, date, and source tag.
 - **Month summary**: how many events you have this month and how many come from notebooks.
 
 ## Add an exam to the calendar
@@ -43,6 +44,28 @@ Exams are added automatically when you create a notebook. Enter the exam date in
 
 You can also add other events, such as a study session or a reminder, with **\+ New event** in the top-right corner of the calendar. These show up as **Saved events**.
 
+## Add, edit, or delete a manual event
+
+1. Select **New event**.
+2. Enter a title, subject, and date. Optionally add notes and a reminder lead time.
+3. Save the event.
+
+Select an event in **Month**, **Week**, **Agenda**, **Upcoming events**, or the past-events history to open the same details dialog. It shows the subject, date, source, status, and any notes.
+
+For a manual event, choose **Edit**, update the fields, and save. Choose **Delete** and confirm to remove it. For a notebook event, choose **Open notebook** to manage the date in that notebook's settings.
+
+## Review past events
+
+The past-events history shows the six most recent past events first. Expand it to see all past events, or collapse it again.
+
+You can mark a past manual event as complete from the history or its details dialog. Use **Reopen** to undo completion. Notebook events do not have this completion action. Completed manual events remain in the calendar and history, but do not appear in **Upcoming events**.
+
+## Set reminders
+
+In the event form, set how many days before the due date you want a reminder. Leave the field empty if you do not want one. Choose a lead time that fits before the event date; the form warns you if it is too late.
+
+Reminders use the existing exam-reminder preference in **Account Settings** → **Notifications**. They are checked on a daily schedule and delivered in-app and, when enabled and available, by push notification. Saving an event does not send an instant reminder email.
+
 ## See your upcoming exams
 
 Check the **Upcoming events** panel on the right. Each card shows:
@@ -53,13 +76,21 @@ Check the **Upcoming events** panel on the right. Each card shows:
 
 ## Switch calendar views
 
+<Frame>
+  <img src="/images/calendar-workflow.png" alt="Calendar toolbar with New event, Today, date navigation, Month, Week, Agenda and source filters" />
+</Frame>
+
+Choose **Month**, **Week**, or **Agenda** for a different view. Use **All**, **Manual**, or **Notebook** to limit the events displayed, or select **New event** to add a saved date.
+
 Use the buttons in the top-right of the calendar:
 
 | View | Best for |
 | --- | --- |
 | **Month** | Seeing all exams and deadlines in the month at a glance |
 | **Week** | Planning study time for the next few days |
-| **Agenda** | Reading a simple list of upcoming events in date order |
+| **Agenda** | Reading events, including past events, in date order |
+
+On mobile, the calendar initially opens in **Agenda**. You can switch to **Month** or **Week** at any time.
 
 ## Frequently asked questions
 
