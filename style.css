@@ -1,0 +1,73 @@
+/* iStudix look: white rounded cards, soft shadows, light slate background */
+
+/* Cards */
+.card {
+  border-radius: 16px !important;
+  border: 1px solid #E5EAF1 !important;
+  background: #FFFFFF;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.card:hover {
+  box-shadow: 0 12px 32px rgba(29, 111, 234, 0.12);
+  transform: translateY(-2px);
+}
+.dark .card {
+  background: #111A2E;
+  border-color: #1F2A44 !important;
+}
+
+/* Screenshot frames */
+frame,
+frame img {
+  border-radius: 20px !important;
+}
+frame {
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+/* Callouts, accordions and steps */
+callout,
+accordion-group,
+accordion {
+  border-radius: 14px !important;
+}
+
+/* Keyboard keys styled like iStudix shortcut chips */
+kbd {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #475569;
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+}
+
+/* Bold main sidebar menu headers (Start, Get Started, etc.) */
+.sidebar-group-header,
+.sidebar-group-header *,
+#sidebar-content .sidebar-group-header h5,
+#sidebar-content .sidebar-group-header a {
+  font-weight: 700 !important;
+}
+
+/* Hide the AI assistant toggle */
+#assistant-entry,
+#assistant-entry-mobile,
+#ask-assistant-code-block-button {
+  display: none !important;
+}
+
+/* Language selector placed next to the logo */
+.istudix-lang-select {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+/* Navbar call-to-action button */
+#topbar-cta-button a {
+  border-radius: 12px !important;
+}

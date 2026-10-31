@@ -1,0 +1,150 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "iStudix",
+  "colors": {
+    "primary": "#1D6FEA",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "default": true,
+        "groups": [
+          {
+            "group": "Start",
+            "pages": [
+              "index",
+              "start/what-is-istudix",
+              "getting-started/create-account",
+              "getting-started/sign-in",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "getting-started/dashboard",
+              "using-istudix/upload-materials",
+              "using-istudix/notebooks",
+              "using-istudix/flashcards",
+              "using-istudix/quizzes-and-exams",
+              "using-istudix/calendar",
+              "using-istudix/progress",
+              "using-istudix/pomodoro"
+            ]
+          },
+          {
+            "group": "Account and subscription",
+            "pages": [
+              "account/settings",
+              "account/plans-and-billing"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "support/troubleshooting",
+              "support/faq",
+              "support/contact"
+            ],
+            "hidden": true
+          },
+          {
+            "group": "Images",
+            "pages": []
+          }
+        ]
+      },
+      {
+        "language": "pt",
+        "groups": [
+          {
+            "group": "Começar",
+            "pages": [
+              "pt/index",
+              "pt/start/what-is-istudix",
+              "pt/getting-started/create-account",
+              "pt/getting-started/sign-in",
+              "pt/quickstart"
+            ]
+          },
+          {
+            "group": "Funcionalidades",
+            "pages": [
+              "pt/getting-started/dashboard",
+              "pt/using-istudix/upload-materials",
+              "pt/using-istudix/notebooks",
+              "pt/using-istudix/flashcards",
+              "pt/using-istudix/quizzes-and-exams",
+              "pt/using-istudix/calendar",
+              "pt/using-istudix/progress",
+              "pt/using-istudix/pomodoro"
+            ]
+          },
+          {
+            "group": "Conta e subscrição",
+            "pages": [
+              "pt/account/settings",
+              "pt/account/plans-and-billing"
+            ]
+          },
+          {
+            "group": "Ajuda",
+            "pages": [
+              "pt/support/troubleshooting",
+              "pt/support/faq",
+              "pt/support/contact"
+            ],
+            "hidden": true
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Open iStudix",
+      "href": "https://www.istudix.app/"
+    }
+  },
+  "appearance": {
+    "default": "light"
+  },
+  "background": {
+    "color": {
+      "light": "#F8FAFC",
+      "dark": "#0B1220"
+    }
+  },
+  "fonts": {
+    "family": "Inter"
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "iStudix",
+        "items": [
+          {
+            "label": "Open iStudix",
+            "href": "https://www.istudix.app/"
+          },
+          {
+            "label": "Contact support",
+            "href": "mailto:mail@justgenius.ai"
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "https://www.istudix.app/logo.png",
+    "dark": "https://www.istudix.app/logo.png",
+    "href": "https://www.istudix.app/"
+  },
+  "favicon": "/favicon.png"
+}
